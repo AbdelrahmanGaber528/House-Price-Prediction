@@ -26,7 +26,7 @@ export const HeroSection = () => {
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-200 animate-fadeIn delay-150">
-          Get instant, AI-powered house price predictions based on advanced machine learning algorithms
+          Get instant, AI-powered house price predictions     
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn delay-300">
@@ -36,13 +36,6 @@ export const HeroSection = () => {
             className="bg-gradient-accent hover:shadow-glow transition-all duration-300 text-primary font-semibold px-8 py-4 text-lg"
           >
             Get Price Prediction
-          </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-2 border-white text-white hover:bg-white hover:text-primary transition-all duration-300 px-8 py-4 text-lg"
-          >
-            Learn More
           </Button>
         </div>
         

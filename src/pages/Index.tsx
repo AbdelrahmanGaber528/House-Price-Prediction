@@ -6,8 +6,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <HeroSection />
-      <PredictionForm />
       <FeaturesSection />
+      <PredictionForm />
     </div>
   );
 };
